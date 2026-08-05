@@ -1,0 +1,6 @@
+{
+  "name": "MONO SNACK - Menu Catalogue",
+  "description": "Catalogue numérique interactif d'affichage du menu pour MONO SNACK (Fast-Food, Crêperie, Pizzeria, Grillades) avec photos, catégories, prix en DA et affichage Affiche Tableau.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
