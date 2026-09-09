@@ -35,8 +35,8 @@ export const CategoryNav: React.FC<CategoryNavProps> = ({
   itemCounts,
 }) => {
   return (
-    <div className="bg-[#0F0F12]/90 backdrop-blur-xl border-b border-zinc-800/80 sticky top-[95px] sm:top-[77px] z-30 shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+    <div className="bg-[#0B0B0E]/95 backdrop-blur-xl border-t border-b border-zinc-800/80 sticky top-[95px] sm:top-[99px] z-30 shadow-2xl py-1 transition-all">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5">
         {/* Category Tabs Scrollable Pill Bar */}
         <div className="flex items-center space-x-2.5 overflow-x-auto no-scrollbar py-1 scroll-smooth">
           {categories.map((cat) => {

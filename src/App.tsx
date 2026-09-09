@@ -130,10 +130,7 @@ export default function App() {
                 className="w-full h-48 sm:h-64 object-cover opacity-80 group-hover:scale-105 transition-transform duration-700 ease-out"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent flex flex-col justify-end p-6 sm:p-8">
-                <span className="inline-flex items-center gap-1.5 text-amber-400 font-mono-code font-bold text-xs uppercase tracking-widest mb-2 bg-amber-500/10 border border-amber-500/30 w-fit px-3 py-1 rounded-full backdrop-blur-md">
-                  <Sparkles size={12} />
-                  CUISINE AUTHENTIQUE & SPÉCIALITÉS
-                </span>
+
                 <h2 className="font-serif-display text-2xl sm:text-4xl text-white font-extrabold tracking-tight">
                   GRILLADES • TACOS • PIZZAS • CRÊPES
                 </h2>

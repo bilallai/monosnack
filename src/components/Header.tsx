@@ -10,7 +10,7 @@ export const Header: React.FC<HeaderProps> = ({ info }) => {
   return (
     <header className="sticky top-0 z-40 glass-header transition-all">
       {/* Top Notification / Info Strip */}
-      <div className="bg-[#09090B]/90 border-b border-zinc-800/60 text-zinc-300 px-4 py-2 text-xs font-sans-body">
+      <div className="bg-[#09090B]/95 border-b border-zinc-800/80 text-zinc-300 px-4 py-1.5 text-xs font-sans-body">
         <div className="max-w-7xl mx-auto flex items-center justify-between gap-4 overflow-x-auto no-scrollbar">
           <div className="flex items-center space-x-5 shrink-0">
             <span className="flex items-center text-zinc-400 hover:text-zinc-200 transition-colors">
@@ -40,10 +40,10 @@ export const Header: React.FC<HeaderProps> = ({ info }) => {
       </div>
 
       {/* Main Header Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 sm:py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
         {/* Brand & Slogan */}
         <div className="flex items-center space-x-3.5">
-          <div className="w-11 h-11 sm:w-13 sm:h-13 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 text-black p-0.5 shadow-lg shadow-amber-500/20 shrink-0 flex items-center justify-center">
+          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 text-black p-0.5 shadow-lg shadow-amber-500/20 shrink-0 flex items-center justify-center">
             <div className="w-full h-full bg-zinc-950 rounded-[14px] flex flex-col items-center justify-center">
               <UtensilsCrossed size={20} className="text-amber-400" />
             </div>

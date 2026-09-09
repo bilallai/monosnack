@@ -8,6 +8,20 @@ import algerianBourekImg from '../assets/images/algerian_bourek_rolls_1785941711
 import shishTaoukImg from '../assets/images/shish_taouk_skewers_1785941727310.jpg';
 import crepeNutellaBananeImg from '../assets/images/crepe_nutella_banane_1785941741646.jpg';
 import kebdaImg from '../assets/images/kebda_sauteed_liver_1785941761774.jpg';
+import pizzaMargheritaImg from '../assets/images/pizza_margherita_studio_1785948675009.jpg';
+import homosHummusImg from '../assets/images/homos_hummus_studio_1785948693199.jpg';
+import falafelPlateImg from '../assets/images/falafel_plate_studio_1785948707310.jpg';
+import cheeseburgerStudioImg from '../assets/images/cheeseburger_gourmet_studio_1785948720807.jpg';
+import chawarmaWrapStudioImg from '../assets/images/chawarma_wrap_studio_1785949023843.jpg';
+import frenchTacosStudioImg from '../assets/images/french_tacos_studio_1785949035763.jpg';
+import bourekStudioImg from '../assets/images/bourek_algerien_studio_1785949048020.jpg';
+import studioShawarmaWrapImg from '../assets/images/studio_shawarma_wrap_1785951551721.jpg';
+import studioFrenchTacosImg from '../assets/images/studio_french_tacos_1785951572284.jpg';
+import studioMixedGrillImg from '../assets/images/studio_mixed_grill_1785951589669.jpg';
+import studioCrepeNutellaImg from '../assets/images/studio_crepe_nutella_1785951605419.jpg';
+import studioPizza4CheeseImg from '../assets/images/studio_pizza_4cheese_1785951639432.jpg';
+import studioHummusBowlImg from '../assets/images/studio_hummus_bowl_1785951652249.jpg';
+import studioFattoushSaladImg from '../assets/images/studio_fattoush_salad_1785951671567.jpg';
 
 export const RESTAURANT_INFO: RestaurantInfo = {
   name: 'MONO SNACK',
@@ -66,7 +80,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'entrees-salades',
     price: 350,
     description: 'Purée onctueuse de pois chiches à la crème de sésame (tahina) et huile d’olive.',
-    image: 'https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80',
+    image: studioHummusBowlImg,
   },
   {
     id: 'sal-2',
@@ -114,7 +128,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'entrees-salades',
     price: 350,
     description: 'Salade orientales croquante avec pain libanais frit et mélasse de grenade.',
-    image: 'https://images.unsplash.com/photo-1592417817038-d13fd7342625?auto=format&fit=crop&w=800&q=80',
+    image: studioFattoushSaladImg,
   },
   {
     id: 'sal-8',
@@ -138,7 +152,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'entrees-salades',
     price: 350,
     description: 'Boulettes croustillantes de pois chiches dorées aux graines de sésame.',
-    image: 'https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80',
+    image: falafelPlateImg,
   },
   {
     id: 'ent-2',
@@ -154,7 +168,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'entrees-salades',
     price: 150,
     description: 'Cigar croustillant en feuille de dbioul farci viande hachée ou poulet.',
-    image: algerianBourekImg,
+    image: bourekStudioImg,
   },
   {
     id: 'ent-4',
@@ -268,7 +282,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'plats-grillades',
     price: 1200,
     description: 'Plateau complet de grillades variées (Chawarma, Shish Taouk, Kebab, Merguez).',
-    image: 'https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=800&q=80',
+    image: studioMixedGrillImg,
   },
 
   // --- 03. SANDWICHS, TACOS & BURGERS ---
@@ -278,7 +292,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sandwichs-tacos',
     price: 350,
     description: 'Pain pita libanais garni de chawarma poulet, sauce toum et cornichons.',
-    image: 'https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=800&q=80',
+    image: studioShawarmaWrapImg,
   },
   {
     id: 'sw-2',
@@ -310,7 +324,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sandwichs-tacos',
     price: 600,
     description: 'Tacos garni de viande hachée assaisonnée, frites et sauce fromagère.',
-    image: 'https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?auto=format&fit=crop&w=800&q=80',
+    image: studioFrenchTacosImg,
   },
   {
     id: 'sw-6',
@@ -334,7 +348,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sandwichs-tacos',
     price: 450,
     description: 'Burger au steak haché pur bœuf avec double cheddar fondu et pickles.',
-    image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=80',
+    image: cheeseburgerStudioImg,
   },
   {
     id: 'sw-9',
@@ -368,7 +382,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'pizzas',
     price: 450,
     description: 'Sauce tomate faite maison, mozzarella fondante, huile d’olive et basilic frais.',
-    image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80',
+    image: pizzaMargheritaImg,
   },
   {
     id: 'pz-2',
@@ -408,7 +422,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'pizzas',
     price: 800,
     description: 'Mozzarella, emmental, gouda fondant et gorgonzola sur base crème.',
-    image: 'https://images.unsplash.com/photo-1573821663912-569905455b1c?auto=format&fit=crop&w=800&q=80',
+    image: studioPizza4CheeseImg,
   },
   {
     id: 'pz-7',
@@ -474,7 +488,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'crepes-desserts',
     price: 450,
     description: 'Combinaison gourmande de Nutella fondant et rondelles de bananes douces.',
-    image: crepeNutellaBananeImg,
+    image: studioCrepeNutellaImg,
   },
   {
     id: 'cr-7',
